@@ -7,3 +7,4 @@ logs/**/*.log
 #de forma recursiva
 #todos os logs das sub-pastas dentro dos logs
 logs/**
+forward-name*
