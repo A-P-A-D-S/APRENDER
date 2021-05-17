@@ -1,0 +1,36 @@
+
+# For more information about the properties used in
+# this file, please see the EditorConfig documentation:
+# https://editorconfig.org/
+
+root = true
+#(quando há varios arquivos .editorconfig) ==
+#Então, o plugin do EditorConfig instalado no 
+#editor/IDE, ao encontrar um desses arquivos, vai 
+#subir na estrutura de diretórios procurando outros, 
+#bjetivando saber quais regras aplicar, já que num 
+#possível conflito, vale o mais próximo na estrutura 
+#onde o arquivo consta.
+#definindo root como true ele para essa procura ascendente
+
+#\/PADRÕES\/
+[name]
+[!não-name]
+[{-10..20}]
+[{package.json,*.yml}]
+[*.{js,py}]
+[{*.html,src/assets/**/*}]
+#\/REGRAS\/
+charset = utf-8
+#Os valores que o EditorConfig permite serem usados são latin1, utf-8, utf-8-bom, utf-16be ou utf-16le.
+end_of_line = cr
+#especifica o carctere que representa a quebra de linha cr , lf ,crlf
+indent_size = 2
+indent_style = tab
+#space ou tab
+insert_final_newline = true
+tab_width = 10
+trim_trailing_whitespace = true
+#deleta qualquer caracter em branco antes da nova linha
+max_line_length = 80
+#regra suportada por um número limitado de editores
