@@ -15,3 +15,4 @@ log[0-9] # colchetes correspondem a um unico caractere de um intervalo especific
 log[01A] # colchetes correspondem a um unico caractere no conjunto especificado saida:log0 , log1 , logA
 log[a-z] 
 foo\[01\].txt # ignore the file literally named foo[01].txt
+**/~ # ignora a pasta /root
