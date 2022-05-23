@@ -1,10 +1,17 @@
 #HOW USE
-pasta-e-subpasta/
+
+** # PROCURA DE FORMA RECURSIVA DENTRO DE DIRETORIOS E SUBDIRETORIOS
+
+/pasta
 *.css
-!not-ignored-css-but-all-other-is.css
+!not-ignored-this-css.css
 **/logs/*.log
-logs/**/*.log
-#de forma recursiva
-#todos os logs das sub-pastas dentro dos logs
-logs/**
+logs/**/*.log 
+logs/**  # IGNORA TODOS SUBDIRETORIOS 
 forward-name*
+*backwared-name
+log?.css # ? -> correspondea um caractere 
+log[0-9] # colchetes correspondem a um unico caractere de um intervalo especificado. saida:log0,log1 , log2 ... , log10
+log[01A] # colchetes correspondem a um unico caractere no conjunto especificado saida:log0 , log1 , logA
+log[a-z] 
+foo\[01\].txt # ignore the file literally named foo[01].txt
