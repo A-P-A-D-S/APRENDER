@@ -2,7 +2,6 @@ Git 1.é descentralizado cada repositório é um nó na rede o que significa que
 working tree ou work directory = area onde ficam os arquivos não rastreados
 Stagin Area ou Index = área onde os arquivos vão quando estão prontos para serem comitados 
 Commit = 1.é o estado do repositorio em um dado momento 
-
 branch ou ramificação = 
 
 Head = Mostra a versão na qual você esta trabalhando atualmente 
@@ -18,6 +17,8 @@ git commit --amend -m "altera o repositorio deste commit"
 git reset HEAD --HARD = volta todos os arquivos para o ultimo commit , não deleta novos arquivos
 git reset HEAD^ --HARD = Descarta o ultimo commit
 git shortlog = Mostra quem contribui e com o que contribui
+git merge = ele mescla o historico bifurcado
+
 
 refs = São Qualquer Coisa que Você Possa Encontrar em .git/refs
 refs^ = um commit antes
@@ -27,3 +28,4 @@ git reflog <refs> = mostra onde a referencia tem estado
 refs@{5} =mostre a apartir do 5 local onde ele esteve
 refs@{yesterday} or refs@{1.week.ago}
 <tree-ish> = podem ser (branches,Head,commit,refs)
+
