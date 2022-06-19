@@ -22,7 +22,7 @@ git rebase = move ou combina uma sequência de commit , altera a base da ramific
 commit 
 git fetch = baixa os arquivos sem fazer o merge
 git pull = baixa os arquivos e faz o merge
-git tag = usado para salvar diferentes versões
+git tag = usado para salvar diferentes versões 1. práticas recomendadas considerar tag leves como públicas e as anotadas como privadas
 
 refs = São Qualquer Coisa que Você Possa Encontrar em .git/refs
 refs^ = um commit antes
