@@ -16,6 +16,7 @@ git commit --amend -m "muda mesagem do commit"
 git commit --amend -m "altera o repositorio deste commit"
 git reset HEAD --HARD = volta todos os arquivos para o ultimo commit , não deleta novos arquivos
 git reset HEAD^ --HARD = Descarta o ultimo commit
+git revert HEAD = ele cria um commit revertendo as alterações do commit atual 
 git shortlog = Mostra quem contribui e com o que contribui
 git merge = ele unifica o historico bifurcado e mescla os arquivos
 git rebase = move ou combina uma sequência de commit , altera a base da ramificação fazendo parecer que você criou a base da ramificação apartir de outro 
@@ -23,6 +24,7 @@ commit
 git fetch = baixa os arquivos sem fazer o merge
 git pull = baixa os arquivos e faz o merge
 git tag = usado para salvar diferentes versões 1. práticas recomendadas considerar tag leves como públicas e as anotadas como privadas
+
 
 refs = São Qualquer Coisa que Você Possa Encontrar em .git/refs
 refs^ = um commit antes
