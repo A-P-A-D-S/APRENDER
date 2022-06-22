@@ -7,6 +7,9 @@ conflitos de um merge = 1. surje quando se altera a mesma linha do arquivo
 Head = Mostra a versão na qual você esta trabalhando atualmente 
 origin/master em vermelho = mostra onde ocorreu o push
 
+git config user.name 'antonio'
+git config user.email 'antonio@gmail.com'
+git config credential.helper store = salva a autenticação da sua conta do github
 git init = Inicializa um repositorio vazio
 git comando -h = pede ajuda
 git checkout -- a.txt = Discarta Alterações no working tree 
