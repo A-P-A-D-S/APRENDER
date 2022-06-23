@@ -17,6 +17,7 @@ git init --bare = 1.repositorios compartilhados devem ser criados com a flag --b
 git diff HashIDanterior..HashIDposterior = compara as diferenças dos arquivos
 git commit --amend -m "muda mesagem do commit"
 git commit --amend -m "altera o repositorio deste commit"
+git commit -m "Closes #1" = irá fechar um issue
 git reset HEAD --HARD = volta todos os arquivos para o ultimo commit , não deleta novos arquivos
 git reset HEAD^ --HARD = Descarta o ultimo commit
 git revert HEAD = ele cria um commit revertendo as alterações do commit atual 
