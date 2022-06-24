@@ -26,6 +26,7 @@ git merge = ele unifica o historico bifurcado e mescla os arquivos
 git rebase = move ou combina uma sequência de commit , altera a base da ramificação fazendo parecer que você criou a base da ramificação apartir de outro 
 commit 
 git fetch = baixa os arquivos sem fazer o merge
+git fetch origin pull/3/head:NomeDabranchQueSeraCriada = baixa os arquivos do commit do pull request #3 sem fazer o merge
 git pull = baixa os arquivos e faz o merge 
 git tag = usado para salvar diferentes versões 1. práticas recomendadas considerar tag leves como públicas e as anotadas como privadas
 
