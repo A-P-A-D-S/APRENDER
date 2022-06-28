@@ -1,4 +1,4 @@
-Git 1.é descentralizado cada repositório é um nó na rede o que significa que cada repositorio é um ponto de distribuição de informação
+Git 1.é descentralizado cada repositório é um nó na rede o que significa que cada repositorio é um ponto de distribuição de informação 2.contralador de versão
 working tree ou work directory = area onde ficam os arquivos não rastreados
 Stagin Area ou Index = área onde os arquivos vão quando estão prontos para serem comitados 
 Commit = 1.é o estado do repositorio em um dado momento 
@@ -29,7 +29,7 @@ git fetch = baixa os arquivos sem fazer o merge
 git fetch origin pull/3/head:NomedaBranchqueseracriada = baixa os arquivos do pull request ]#3
 git pull = baixa os arquivos e faz o merge 
 git tag = usado para salvar diferentes versões 1. práticas recomendadas considerar tag leves como públicas e as anotadas como privadas
-
+    # Como fazer alterações no repositorio remoto
 
 refs = São Qualquer Coisa que Você Possa Encontrar em .git/refs
 refs^ = um commit antes
