@@ -1,5 +1,8 @@
 
 # `APRENDER`
+# TITULO MAIOR
+## TITULO MÉDIO
+### TITULO MENOR
 
 <div>:+1: :biohazard: :shipit:</div>
 
@@ -15,17 +18,19 @@
 
 --------------------------
 
-- [ ] not finished
+1. LISTA 
+2. NUMERADA
 
-- [x] fineshed 
+- LISTA
+- MARCADA
 
-* *ponto-italic*
+- **BOLD**
+- _ITALIC_
+- *ITALICO*
+- ~~RISCO~~
 
-- **ponto-bold**
-
-- ~~ponto-traço~~
-
-- _italic_
+- [x] FINISHED
+- [ ] NOT FINISHED
 
 ```js
 var a=10 ; let b=20 ;
