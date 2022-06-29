@@ -6,6 +6,8 @@ conflitos de um merge = 1. surje quando se altera a mesma linha do arquivo
 
 Head = Mostra a versão na qual você esta trabalhando atualmente 
 origin/master em vermelho = mostra onde ocorreu o push
+Upstream é tudo que você insere no git: criar um repositório no git, fazer um commit, fazer um push.
+Downstream é tudo aquilo que você pega do git como : fazer o git clone , git pull
 
 git config user.name 'antonio'
 git config user.email 'antonio@gmail.com'
@@ -27,7 +29,7 @@ git rebase = move ou combina uma sequência de commit , altera a base da ramific
 commit 
 git fetch = baixa os arquivos sem fazer o merge
 git fetch origin pull/3/head:NomedaBranchqueseracriada = baixa os arquivos do pull request ]#3
-git pull = baixa os arquivos e faz o merge 
+git pull = baixa os arquivos faz merge e o rebase
 git tag = usado para salvar diferentes versões 1. práticas recomendadas considerar tag leves como públicas e as anotadas como privadas
     # Como fazer alterações no repositorio remoto
 
@@ -39,4 +41,6 @@ git reflog <refs> = mostra onde a referencia tem estado
 refs@{5} =mostre a apartir do 5 local onde ele esteve
 refs@{yesterday} or refs@{1.week.ago}
 <tree-ish> = podem ser (branches,Head,commit,refs)
+<upstream> = podem ser (commits,origin/branch) 
+
 
