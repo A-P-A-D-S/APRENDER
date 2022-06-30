@@ -32,7 +32,7 @@ git fetch origin pull/3/head:NomedaBranchqueseracriada = baixa os arquivos do pu
 git pull = baixa os arquivos faz merge e o rebase
 git tag = usado para salvar diferentes versões 1. práticas recomendadas considerar tag leves como públicas e as anotadas como privadas
 
-git clone --depth <quantidade de commits> <repositorio>= clona os commits mais recentes
+git clone --depth <quantidade de commits> <repositorio>= clona os commits mais recentes 
     # Como fazer alterações no repositorio remoto
 
 
