@@ -31,7 +31,10 @@ git fetch = baixa os arquivos sem fazer o merge
 git fetch origin pull/3/head:NomedaBranchqueseracriada = baixa os arquivos do pull request ]#3
 git pull = baixa os arquivos faz merge e o rebase
 git tag = usado para salvar diferentes versões 1. práticas recomendadas considerar tag leves como públicas e as anotadas como privadas
+
+git clone --depth <quantidade de commits> <repositorio>= clona os commits mais recentes
     # Como fazer alterações no repositorio remoto
+
 
 refs = São Qualquer Coisa que Você Possa Encontrar em .git/refs
 refs^ = um commit antes
