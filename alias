@@ -1,1 +1,3 @@
-alias gl="git log --oneline --all" | alias gm="git commit" | alias gs="git status" 
+
+
+alias gl="git log --oneline --all" && alias gm="git commit" && alias gs="git status" 
