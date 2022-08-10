@@ -1,1 +1,1 @@
-alias -p gl="git log --oneline --all" gm="git commit" cls="clear"
+alias gl="git log --oneline --all" | alias gm="git commit" | alias gs="git status" 
