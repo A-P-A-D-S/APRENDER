@@ -1,0 +1,7 @@
+git log --oneline --graph --pretty='format:%C(auto) %n HashTree: %T  %C(bold green) %n hashOrigem: %P %n%C(auto) Nome:%an %n Email: %ae Parte_local_do_email:%ae %n data_do_auto:%ad data no padrão RFC2822 %ad data com registro : %at data relativa : %ar %n nome de quem fez o commit: %cn %n data do commit Respeitando --date: %cd %n nome de referencia com a opçao --decorate : %d %n nomes "ref" dado na linha de comando pela qual o commit foi alcançado (como git log --source), só funciona com git log : %S %n codificação : %e %n assunto : %s %n linha de assunto higienizado : %f %n corpo :%b  %n corpo Bruto(assunto e corpo da mensagem desembrulhados): %B %n %N anotações de quem fez o commit : %N %n  exibibe o nome do assinate de um commit : %GS %n seletor do reflog encurtado; o mesmo que %gD, menos o "refname" a parte é reduzida visando a legibilidade humana (assim, refs/heads/master se torna apenas master). : %gd %n e-mail de identidade reflog : %ge %n assunto reflog: %gs %n messagem do commit:%s' --decorate=full 
+
+
+git log --graph --oneline --pretty='format:%C(bold yellow) %h %C(bold red) %d %C(bold white) %s %C(bold green) %cd' --decorate=short --date=relative
+
+  
+  
