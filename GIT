@@ -5,7 +5,7 @@ Commit = 1.é o estado do repositorio em um dado momento
 conflitos de um merge = 1. surje quando se altera a mesma linha do arquivo
 
 Head = Mostra a versão na qual você esta trabalhando atualmente 
-origin/master em vermelho = mostra onde ocorreu o push
+origin/master = é a referencia do estado da branch remota
 Upstream é tudo que você insere no git: criar um repositório no git, fazer um commit, fazer um push.
 Downstream é tudo aquilo que você pega do git como : fazer o git clone , git pull
 
